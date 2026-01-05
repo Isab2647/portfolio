@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Didact_Gothic";
+  src: url(../Fonts/Didact_Gothic/DidactGothic-Regular.ttf);
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT_Sans_Narrow";
+  src: url(../Fonts/PT_Sans_Narrow/PTSansNarrow-Bold.ttf);
+  font-style: oblique;
+}
+
+body{
+  background-color: var(--color-bg);
+}
+
+/* fonts*/
+:root {
+  --font-family-regular: "Didact_Gothic";
+  --font-family-bold: "PT_Sans_Narrow";
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+h1 {
+  font-family: var(--font-family-bold);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-brown);
+}
+
+h2 {
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-regular);
+  color: var(--color-brown);
+}
+
+p,
+h3, li, a {
+  font-family: var(--font-family-regular);
+  font-weight: var(--font-weight-light);
+  color: var(--color-brown);
+}
+
+:root {
+  --color-bg: #ced1bc;
+  --color-brown: #42211a;
+  --color-white: #eeeeee;
+  --color-lightbrown: #c3a186;
+  --color-blue: #486068;
+}

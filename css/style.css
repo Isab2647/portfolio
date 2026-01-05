@@ -1,0 +1,234 @@
+/* index */
+
+.grid_1 img {
+  max-width: 70%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+  border-radius: 10px;
+  border: 10px solid var(--color-brown);
+}
+
+.grid_1 {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.grid_1 h3 {
+  max-width: 50%;
+  padding: 0.2rem;
+  margin: auto;
+  margin-top: 1em;
+}
+
+.grid_container {
+  padding-top: 25em;
+}
+
+.grid_container h3 {
+  background-color: var(--color-white);
+  border-radius: 10px;
+}
+
+.h1 {
+  padding-left: 2em;
+  margin: 0;
+}
+
+.h2 h2 {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+h1 {
+  font-size: 5rem;
+  padding-top: 1em;
+}
+
+.h1,
+h1,
+p {
+  margin: 0;
+}
+
+.card {
+  position: relative;
+}
+
+.card button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+  padding: 5px 15px 5px 15px;
+}
+
+.card button {
+  background-color: var(--color-lightbrown);
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.scroll-indicator {
+  position: absolute; /* eller fixed */
+  left: 50%;
+  top: 50%;
+  font-size: 2rem;
+  color: var(--color-lightbrown);
+  animation: bounce 1.5s infinite;
+  opacity: 0.8;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  padding: 0.5em;
+  margin-top: 4em;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, 0);
+  }
+  50% {
+    transform: translate(-50%, 10px);
+  }
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+/* skal rykkes ned i en @media */
+/* .nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 3rem;
+  padding-right: 2em;
+  padding-top: 1em;
+}
+
+.nav li {
+  border-radius: 20px;
+  color: var(--color-white);
+  background-color: var(--color-lightbrown);
+  border: var(--color-white);
+  padding: 0.5em;
+} */
+
+/* Tema 1 */
+
+.logo {
+  padding-right: 17em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo til venstre, burger til højre */
+  flex-wrap: wrap; /* så knapperne kan bryde til næste række */
+  padding: 1em 2em;
+}
+
+.nav-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+  padding-top: 5em;
+  text-align: center;
+}
+
+.nav-buttons a {
+  display: inline-block;
+  padding: 0.8em 1.5em;
+  background-color: var(--color-blue);
+  border-radius: 15px;
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.nav-buttons a:hover {
+  background-color: var(--color-blue);
+  transform: translateY(-2px);
+}
+
+.tema img {
+  max-width: 70%;
+  margin-left: 4.5em;
+  padding-bottom: 2em;
+}
+
+.tema {
+  padding-top: 5em;
+}
+
+.tema p,
+h3 {
+  max-width: 80%;
+  place-self: center;
+}
+
+.tema button {
+  position: relative;
+  left: 41%;
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+  padding: 5px 15px 5px 15px;
+  background-color: var(--color-lightbrown);
+
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.tema a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+
+.tema button:hover {
+  transform: translateY(-2px);
+}
+
+.tema_overskrift {
+  text-align: center;
+  margin-bottom: 3em;
+  padding-top: 5em;
+}
+
+/* Tema 2 */
+/* Tema 3 */
+
+.temabtn a {
+  position: relative;
+  left: 28%;
+  border-radius: 10px;
+  border: 2px solid var(--color-white);
+  padding: 5px 15px 5px 15px;
+  background-color: var(--color-lightbrown);
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.temabtn {
+  margin-top: 4em;
+  margin-bottom: 10em;
+}
+
+/* Tema 4 */
+/* Tema 5 */
+
+/* om mig */
+.margin_top {
+  margin-top: 4em;
+}
+
+.portræt img {
+  max-width: 50%;
+  margin-left: 5.5em;
+  padding: 2em 2em 2em 2em;
+  margin-bottom: 3em;
+  background-color: var(--color-blue);
+  border-radius: 50%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
