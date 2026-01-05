@@ -10,9 +10,26 @@
   font-style: oblique;
 }
 
-body{
+body {
   background-color: var(--color-bg);
 }
+
+
+footer {
+  
+  padding-top: 2em; 
+  padding-bottom: 4em;   
+  padding-left: 2em;            
+  background-color: var(--color-lightbrown);
+  margin-top: 7em;
+}
+
+footer img {
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+
 
 /* fonts*/
 :root {
@@ -35,7 +52,9 @@ h2 {
 }
 
 p,
-h3, li, a {
+h3,
+li,
+a {
   font-family: var(--font-family-regular);
   font-weight: var(--font-weight-light);
   color: var(--color-brown);

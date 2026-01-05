@@ -22,15 +22,10 @@
 }
 
 .menu {
-  background-color: var(--color-lightbrown);
   list-style: none;
 }
 
-.menu li a:hover {
-  background-color: var(--color-brown);
-  border-radius: 15px;
-  padding: 0.2em;
-}
+
 
 .nav {
   display: flex;
@@ -52,6 +47,7 @@
     padding: 20px;
     z-index: 10;
     border-radius: 20px;
+    background-color: var(--color-lightbrown);
   }
 
   .burger {
@@ -84,4 +80,10 @@
   nav.active .menu a {
     font-size: 24px;
   }
+  
+  .menu li a:hover {
+  background-color: var(--color-brown);
+  border-radius: 15px;
+  padding: 0.2em;
+}
 }
