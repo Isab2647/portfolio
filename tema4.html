@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/generel.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="imgs/favicon.svg" type="image/svg" />
   </head>
   <body>
     <header>
@@ -36,43 +37,62 @@
     </header>
 
     <main>
+      <img
+        src="imgs/linje.svg"
+        alt="billede skjult i mobil-version"
+        class="skjult_billede"
+      />
       <div class="tema_overskrift">
         <h2>Tema 4: Grundlæggende brugergrænsefladeudvikling</h2>
       </div>
 
       <div class="tema">
-        <img src="imgs/emergency.webp" alt="" />
-        <p>
-          På tema 4 blev vi introduceret til Adobe Illustartor og javascript.
-          Ydermere skulle vi arbejde med vektorgrafik i SVG-format. Vi skulle
-          bl.a. bruge disse programmer til at lave en infografik og en form, som
-          vi skulle kunne implementere. Dette skulle bruges sammen med CSS til
-          at udvikle brugergrænsefladen af et site, som vi fik udleveret. Dette
-          var et Emergency site, hvor vi selv skulle finde på en “emergency”,
-          som vi ville arbjede ud fra.
-        </p>
+        <img src="imgs/emergency.webp" alt="" class="billede4" />
+        <div class="tekst_container">
+          <p class="tekst4">
+            På tema 4 blev vi introduceret til Adobe Illustartor og javascript.
+            Ydermere skulle vi arbejde med vektorgrafik i SVG-format. Vi skulle
+            bl.a. bruge disse programmer til at lave en infografik og en form,
+            som vi skulle kunne implementere.
+          </p>
+          <p class="tekst4">
+            Dette skulle bruges sammen med CSS til at udvikle brugergrænsefladen
+            af et site, som vi fik udleveret. Dette var et Emergency site, hvor
+            vi selv skulle finde på en “emergency”, som vi ville arbjede ud fra.
+          </p>
+        </div>
       </div>
 
       <div class="tema">
-        <img src="imgs/kode.webp" alt="" />
-        <p>
-          Da jeg var barn så jeg et program, som jeg mener hed noget i stil med
-          “Hjælp jeg har fået hund”. Jeg valgte at tage udgangspunkt i dette, da
-          jeg selv drømmer om at få hund og tænkte, at jeg ville lave et site,
-          om alt det man ikke tænker over, eller det man skal være opmærksom på,
-          når man får hund. Jeg brugte Adobe firefly til at generere billede til
-          mit site, som skulle afspejle nogle af de problemer der kan opstå,
-          hvis man ikke får opdraget som hund rigtigt. Derudover fik jeg lavet
-          en infografik af en hund, hvor man kunne trykke på forskellige
-          informationer og bl.a. få informationer om hunden og dens behov.
-        </p>
+        <img src="imgs/kode.webp" alt="" class="billede3" />
+        <div class="tekst_container4 order">
+          <p class="tekst3">
+            Da jeg var barn så jeg et program, som jeg mener hed noget i stil
+            med “Hjælp jeg har fået hund”. Jeg valgte at tage udgangspunkt i
+            dette, da jeg selv drømmer om at få hund og tænkte, at jeg ville
+            lave et site, om alt det man ikke tænker over, eller det man skal
+            være opmærksom på, når man får hund.
+          </p>
+          <p class="tekst3">
+            Jeg brugte Adobe firefly til at generere billede til mit site, som
+            skulle afspejle nogle af de problemer der kan opstå, hvis man ikke
+            får opdraget som hund rigtigt.
+          </p>
+          <p class="tekst3">
+            Derudover fik jeg lavet en infografik af en hund, hvor man kunne
+            trykke på forskellige informationer og bl.a. få informationer om
+            hunden og dens behov.
+          </p>
+        </div>
       </div>
-      <div class="temabtn">
-        <a
-          href="https://www.figma.com/design/4oBEvLIzdFeQTVxE7PhexJ/Untitled?t=mNiljSsVAtReBZV6-1"
-          >Min process</a
-        >
-        <a href="https://isab2647.github.io/hund/">Mit site</a>
+      <div class="temabtn2">
+        <div class="temabtn temabtn2">
+          <a
+            href="https://www.figma.com/design/4oBEvLIzdFeQTVxE7PhexJ/Untitled?t=mNiljSsVAtReBZV6-1"
+            >Min process</a
+          >
+          <a href="https://isab2647.github.io/hund/">Mit site</a>
+        </div>
       </div>
     </main>
     <footer>
@@ -89,6 +109,6 @@
         /></a>
       </div>
     </footer>
+    <script src="js/burger.js"></script>
   </body>
-  <script src="js/burger.js"></script>
 </html>

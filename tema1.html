@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/burger.css" />
     <link rel="stylesheet" href="css/generel.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="imgs/favicon.svg" type="image/svg" />
   </head>
   <body>
     <header>
@@ -36,40 +37,54 @@
     </header>
 
     <main>
+      <img
+        src="imgs/linje.svg"
+        alt="billede skjult i mobil-version"
+        class="skjult_billede"
+      />
       <div class="tema_overskrift">
         <h2>Tema 1: Introuge</h2>
       </div>
 
       <div class="tema">
-        <img src="imgs/introuge.webp" alt="" />
-        <p>
-          På tema 1, som var det første vi havde, skulle vi høre om uddannelsen
-          og hvad den gik ud på. Der kom tidligere studerende, som fortalte om
-          deres studiegang og nuværende arbejde. Derudover blev vi intruduceret
-          til vores undervisere og studie kammerater, som vi skulle lave vores
-          første opgave sammen med. Vi skulle i vores gruppe lave en video, hvor
-          alle gruppemedlemmer skulle repræsenteres med navn og billede til en
-          introsang fra en serie eller film.
-        </p>
+        <img src="imgs/introuge.webp" alt="" class="billede1" />
+        <div class="tekst_container">
+          <p class="tekst1">
+            På tema 1, som var det første vi havde, skulle vi høre om
+            uddannelsen og hvad den gik ud på. Der kom tidligere studerende, som
+            fortalte om deres studiegang og nuværende arbejde.
+          </p>
+          <p class="tekst1">
+            Derudover blev vi intruduceret til vores undervisere og studie
+            kammerater, som vi skulle lave vores første opgave sammen med. Vi
+            skulle i vores gruppe lave en video, hvor alle gruppemedlemmer
+            skulle repræsenteres med navn og billede til en introsang fra en
+            serie eller film.
+          </p>
+        </div>
       </div>
 
       <div class="tema">
-        <img src="imgs/redigering.webp" alt="" />
-        <p>
-          At skulle lave sin første hjemmeside var ikke nemt. Det krævede et
-          stort overblik at holde styr på alle elementer. Dog hjalp det
-          udleverede materiale til at få overblikket over, hvordan de forskellge
-          elemnter skulle stilles op, da man kunne se det visuelt for sig. Der
-          var elementer, der drillede som krævede lidt ekstra tid, men med den
-          rette vejledning fik jeg implementeret det jeg skulle. Jeg havde en
-          smule svært ved at finde ud af hvilken farvesammensætning jeg skulle
-          vælge, og derfor er det ikke helt, som jeg gerne ville have, at det
-          skulle være.
-        </p>
-
-        <button>
-          <a href="https://www.youtube.com/watch?v=F06JGstitBI">Se video</a>
-        </button>
+        <img src="imgs/redigering.webp" alt="" class="billede2" />
+        <div class="tekst_container2 order">
+          <p class="tekst2">
+            I vores gruppe blev vi hurtigt enige om, at vi ville bruge
+            introsangen fra Friends. Derefter planlagde vi hvilke klip vi ville
+            have med i videon, og gik ellers i gang med at få optagt.
+          </p>
+          <p class="order tekst2">
+            Da alt var optaget satte vi os sammen, og begyndte at snakke om
+            hvordan vi ville have det klippet. Der var en der fik ansvaret for
+            at styre musen på computeren, mens vi andre kom med ideer.
+          </p>
+          <p class="order tekst2">
+            Da videon var færdigklippet, skulle den præsenteres og vises for
+            holdet.
+          </p>
+        </div>
+      </div>
+      <div class="se_video_btn">
+        <a href="https://www.youtube.com/watch?v=F06JGstitBI">Se video</a>
       </div>
     </main>
     <footer>
@@ -86,6 +101,6 @@
         /></a>
       </div>
     </footer>
+    <script src="js/burger.js"></script>
   </body>
-  <script src="js/burger.js"></script>
 </html>
